@@ -1,0 +1,14 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "DEMO.EVERSHOP.IO" verbose="5" thread-count="1" parallel = "tests">
+    <test name="FUNCTIONAL TEST">
+        <groups>
+            <run>
+                <include name="functional"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.ClassTestRegister"> </class>
+        </classes>
+    </test>
+</suite>
